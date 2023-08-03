@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>주자창 비교하기</title>
+	<link rel="stylesheet" href="./cal.css">
+</head>
+
+<body>
+
+	<!--웹페이지 로고-->
+	<div id="compare">
+		<a href="/" target="_self">
+			<h1>COURT</h1>
+		</a>
+		<span class="compareDt2">
+			<h1><span>담</span>아보고 <span>비</span>교하고! </h1>
+		</span>
+	</div>
+
+	<div class="epBtn">
+		<h3>원하는 주차장 정보만 선택해서 볼 수 있어요</h3><br>
+		<input type="number" id="estimatedTime" placeholder="예상 주차 시간 (분)" style="text-align: center;">
+    	<button type="button" id="selectBtn">선택</button>
+	</div>
+
+	<!-- 선택한 주차장들의 예상 금액 출력 -->
+	<div id="chPkList"></div>
+
+	<div class="row">
+		<table id="parkingList" width="100%" >
+			<thead>
+				<tr>
+				    <th>선택</th>
+					<th>이름</th>
+					<th>주소</th>
+					<th>기본요금(원)</th>
+					<th>추가요금(원)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>대흥제1(1급지/천안역부근)</td>
+					<td>충남 천안시 동남구 대흥로 205</td>
+					<td>0</td>
+					<td>200</td>
+
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>불당 제5주차장(W타워)</td>
+					<td>충남 천안시 서북구 불당25로 154</td>
+					<td>0</td>
+					<td>200</td>
+
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>명동주차장(1급지/천안역부근)</td>
+					<td>충남 천안시 동남구 명동길 36</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>신부 제4(신부동 먹거리9길)</td>
+					<td>충남 천안시 동남구 먹거리9길 17</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>명동주차장(1급지/천안역부근)</td>
+					<td>충남 천안시 동남구 명동길 36</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>태조산공원 주차장</td>
+					<td>충남 천안시 동남구 태조산길 261</td>
+					<td>3000</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>두정제1(1급지/주차장)</td>
+					<td>충남 천안시 서북구 두정상가1길 6</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>두정역 제1(환승공영주차장)</td>
+					<td>충남 천안시 서북구 천안대로 999-22</td>
+					<td>0</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>불당제2(1급지/주차장)</td>
+					<td>충남 천안시 서북구 검은들3길 5</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>신부제1(터미널/환승/주차장)</td>
+					<td>충남 천안시 동남구 터미널8길 7</td>
+					<td>0</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>쌍용제1(1급지/주차장)</td>
+					<td>충남 천안시 서북구 미라3길 16</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>불당제1(주차빌딩/주차타워)</td>
+					<td>충남 천안시 서북구 검은들1길 15</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>대흥로 제1(노상주차장)</td>
+					<td>충남 천안시 동남구 대흥로 225</td>
+					<td>0</td>
+					<td>200</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="parkingAddress" ></td>
+					<td>지하도상가 공영주차장</td>
+					<td>충남 천안시 동남구 버들로 지하2</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	
+	</div>
+
+
+
+</body>
+<script src="./cal.js"></script>
+
+</html>

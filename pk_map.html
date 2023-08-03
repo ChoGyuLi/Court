@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script> 
+<meta charset="UTF-8">
+<title>주차장 찾기</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+<link rel="stylesheet" href="/pk_map.css">
+</head>
+<body>
+    <!--웹페이지 로고-->
+    <a href="/" target="_self">
+        <header><h1>COURT</h1></header>
+    </a>
+
+    <!--검색창-->
+    <div id="search-box">
+        <form class="form">
+        <input type="text" id="search-txt" value=" "placeholder="주소를 입력하세요">
+        <button type="submit" id="search-btn">
+            <i class="fas fa-search"></i>
+        </button>
+        </form>
+
+        <ul id="placesList"></ul>
+    </div>
+    <!--지도-->
+    <div class="map_wrap">
+        <div id="map"></div>
+        <ul id="category">
+            <li id="PK6" data-order="0"> 
+                <span class="category_bg bank"></span>
+                주차장
+            </li>             
+        </ul>
+    </div>
+	
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7b75f89c195e9f08e39a10f5d9296a90&libraries=services"></script>
+        <script src="./map.js"></script>
+    </body>
+</html>

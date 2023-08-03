@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen {
+
+    /*헤더*/
+    #compare {
+        padding-left: 30px;
+        padding-bottom: 2%;
+        margin: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    a h1 {
+        color: rgb(194, 203, 134);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        display: inline;
+
+    }
+
+    .compareDt2 h1 {
+        display: inline;
+        padding-top: 30px;
+        padding-left: 32%;
+        font-weight: bolder;
+
+    }
+
+    h1 span {
+        color: rgb(122, 173, 100);
+    }
+
+    #estimatedTime {
+        margin-left: 45px;
+        margin-bottom: 10px; 
+        height: 20px;
+        border-radius: 50px;
+    }
+
+    #estimatedTime input:focus{
+        border-color:#53be60;
+        outline: none;
+    }
+
+    /*버튼*/
+
+    .epBtn h3 {
+        padding-left: 3%;
+        display: inline;
+        
+    }
+
+    #selectBtn {
+        background-color: #53be60;
+        border: 1px none;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 10px;
+        margin-left: 1%;
+        padding: 7px 17px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+        cursor: pointer;
+    }
+
+    #selectBtn:hover {
+        background-color: #3e9248;
+    }
+
+    #selectBtn:active {
+        position: relative;
+        top: 1px;
+    }
+
+    /*테이블*/
+
+    .row {
+        padding: 3%;
+    }
+
+    #parkingList {
+        margin-top: 40px;
+    }
+
+    #parkingList th {
+        width: 150px;
+        padding: 10px;
+        font-weight: bold;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+        background: #efefef;
+
+    }
+
+    input[type="checkbox"]{
+
+        width: 20px; 
+        height: 20px; 
+        text-align: left;
+        cursor: pointer;
+  
+        
+        }
+
+    #parkingList td{
+        width: 350px;
+        padding: 10px;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+    }
+
+    /* 체크된 주차장 리스트 */
+    #chPkList {
+        margin: 0 auto; 
+        padding: 10px;
+        padding-left: 5%;
+        width: 93%;
+        height: 150px;
+        
+    }
+
+    .parkinglot {
+        width: 350px;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: beige;
+    }
+    .parking-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 10px; 
+        justify-content: center;
+      }
+      
+}

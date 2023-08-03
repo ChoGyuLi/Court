@@ -1,0 +1,97 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+
+/*pc*/
+@media screen {
+
+    a{
+        text-decoration: none;
+        
+    }
+    
+    
+    header h1 {
+        color:   rgb(216, 229, 128);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        padding-top: 1%;
+        text-align: center;
+       
+    }
+    
+    .container{
+        border: 1px solid #fff;
+        height: 100hv;
+        top: 50%;
+        background-image: url(./Parking\ Lot.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    form.box{
+        
+        width: 600px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color:orange;
+        text-align: center;
+    }
+
+    .explan {
+        color: #fff;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        -webkit-text-stroke-width: 0.9px;
+        -webkit-text-stroke-color: black;
+       
+    }
+
+    .button {
+        background-color: rgb(173, 190, 165);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align:center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 35%;
+        
+      } 
+  .button1 {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 35%;
+      }
+
+
+    .bg_img{
+        background: url('./Parking\ Lot.jpg') no-repeat center center/cover, rgba(0, 0, 0, 0.5);
+        background-blend-mode: multiply;
+        height: 1100px;
+        width: 2100px;
+        margin-top: 0px;
+    }
+
+}
+
+
+

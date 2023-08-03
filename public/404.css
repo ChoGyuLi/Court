@@ -1,0 +1,54 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#notfound {
+    position: absolute;
+    height: 100vh;
+    
+    left: 33%;
+    text-align: center;
+    top: 20%;
+    
+  }
+
+.notfound {
+    max-width: 520px;
+    width: 100%;
+    line-height: 2,4;
+    text-align: center;
+    text-align: center;
+ 
+
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 240px;
+    text-align: center;
+   
+   
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 27%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 252px;
+    font-weight: 900;
+    margin: 0px;
+    color: #262626;
+    text-transform: uppercase;
+   
+    letter-spacing: 20%;
+    margin-left: 20%;
+  
+  
+  }
+
+ 
