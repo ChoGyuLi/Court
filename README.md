@@ -26,14 +26,8 @@
 <hr>
 <h4>📌 프로토타입</h4>
 <p align="center">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/e95ca370-e2b8-4d0f-b695-df2b068a877b" align="center" width="24%">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/c668fa45-209e-4be0-a212-a8e165f118bd" align="center" width="24%">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/66af735a-5894-45d5-ab13-d6d33a64a5ec" align="center" width="24%">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/a17b8611-8fe3-4605-8085-c63a87247cfa" align="center" width="24%">
+  <img src="https://github.com/ChoGyuLi/Court/assets/96984575/084bf54d-d0b1-4200-a500-87564336f4da" align="center" width="33%">
+  <img src="https://github.com/ChoGyuLi/Court/assets/96984575/4a67a4dc-4e07-4538-9cc7-24112c0cc75b" align="center" width="33%">
+  <img src="https://github.com/ChoGyuLi/Court/assets/96984575/d2c34286-de48-4c57-bc2a-fa826592ed4b" align="center" width="33%">
 </p>
-<p align="center">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/d408363b-09d1-4b8f-9da7-f5c80de6df44" align="center" width="24%">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/46ae2e54-132c-4b72-9936-6f25ad78b014" align="center" width="24%">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/3c33f522-23c3-4c5d-a938-e47128e79b58" align="center" width="24%">
-  <img src="https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/cc680b1c-5dc0-4d63-909a-2f5a885b9dda" align="center" width="24%">
-</p>
+
