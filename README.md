@@ -18,11 +18,10 @@
 
 <h4>📌 프로젝트 개요</h4>
 
-![1](https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/8fa7dd5d-609a-4ad4-bf62-7620a2fd4440)
-![2](https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/5f569da8-c07f-40d0-aeaf-69f2b5da2d0d)
-![3](https://github.com/ChoGyuLi/For_the_precious_woman/assets/96984575/0b7d6612-d408-4c17-9b18-ad4261587dcf)
+![1](https://github.com/ChoGyuLi/Court/assets/96984575/18edb324-f89f-4d11-a523-04409c42d972)
+![2](https://github.com/ChoGyuLi/Court/assets/96984575/4260d7f7-e91c-46c3-87ba-653d492f5018)
 
-🖇️ [시연 영상](https://drive.google.com/drive/folders/1sqSo9SA9yxUix4gg-EqPrXVbg7VvucO_?usp=sharing)
+🖇️ [시연 영상](https://drive.google.com/drive/folders/1yzO0SHmv2sUt1cu-eFc3T-fLrLv43TtT?usp=sharing)
 <br>
 <hr>
 <h4>📌 프로토타입</h4>
